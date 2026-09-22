@@ -10,6 +10,8 @@ void Render();
 
 void Shutdown();
 
+#define MAKRO
+
 
 int main()
 {
