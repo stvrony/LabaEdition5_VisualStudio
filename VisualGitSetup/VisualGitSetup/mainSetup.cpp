@@ -18,3 +18,25 @@ int main()
 }
 
 
+void Initialize()
+{
+	cout << "Initializing" << endl;
+}
+
+void GetInput()
+{
+	cout << "Input: " << endl;
+}
+void Update()
+{
+	cout << "Updating..." << endl;
+}
+void Render()
+{
+	cout << "Rendering..." << endl;
+}
+
+void Shutdown()
+{
+	cout << "Shuting down..." << endl;
+}
