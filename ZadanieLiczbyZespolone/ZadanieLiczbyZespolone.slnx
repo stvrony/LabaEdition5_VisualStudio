@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ZadanieLiczbyZespolone/ZadanieLiczbyZespolone.vcxproj" />
+  <Project Path="ZadanieLiczbyZespolone/ZadanieLiczbyZespolone.vcxproj" Id="2a195b38-a170-4575-9cae-4b338dad053f" />
 </Solution>
