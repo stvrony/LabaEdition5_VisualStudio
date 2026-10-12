@@ -54,18 +54,20 @@ int main()
 	case 2: ManualInsert(); break;
 	case 3: SelectPreset(); break;
 	}
+
 	cin.ignore();
 	system("cls");
 	cout << endl << "Creating Your next generation of cells..." << endl << endl;
 	cout << "Press ENTER to generate your board!";
 	cin.get();
+
 	while (true)
 	{
 		system("cls");
 		PrintBoard();
 		UpdateGeneration();
 		cout << endl << endl;
-		cout << "Press any key to move on, or ESC to exit...";
+		cout << "Press or hold any key to move on, or ESC to exit...";
 		char Key = _getch();
 		if (Key == 27)
 		{
@@ -88,7 +90,6 @@ void PrintBoard()
 		}
 		cout << endl;
 	}
-
 }
 
 void InitializeBoard()
