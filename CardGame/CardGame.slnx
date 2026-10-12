@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CardGame/CardGame.vcxproj" Id="d582d801-181a-4eef-877a-4f6083e7bcfb" />
+</Solution>
